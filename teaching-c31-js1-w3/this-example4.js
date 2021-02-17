@@ -8,18 +8,23 @@ const fakeLionClass = function (food) {
     console.log(this.lionFood)
   }
 
-  // this.beLoud = function () {
-  //   console.log(this.sound)
-  // }
+  this.beLoud = function () {
+    console.log(this.sound)
+  }
 }
 
 const newYorkZooLion = new fakeLionClass('meat')
 newYorkZooLion.whatDoYouEat()
-// newYorkZooLion.beLoud()
+
+const RottedamZooLion = new fakeLionClass('grass')
+RottedamZooLion.whatDoYouEat()
+// RottedamZooLion.beLoud()
 
 
 
 
-// fakeLionClass.prototype.sound = 'roar'
+fakeLionClass.prototype.sound = 'roar'
 
+console.log(newYorkZooLion.hasOwnProperty('sound'))
+// console.log(newYorkZooLion.hasOwnProperty('lionFood'))
 // newYorkZooLion.beLoud()

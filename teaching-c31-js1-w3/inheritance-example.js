@@ -3,11 +3,11 @@
  */
 class Animal {
   constructor(food) {
-    this.lionFood = food;
+    this.myFood = food;
   }
 
   whatDoYouEat = function () {
-    console.log(this.lionFood)
+    console.log(this.myFood)
   }
 }
 

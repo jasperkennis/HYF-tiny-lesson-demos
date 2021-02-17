@@ -7,8 +7,8 @@ const dog = {
   goToSleep: function () {
     this.sound = 'snore'
   },
-  wakeUp: () => {
-    this.sound = 'woof'
+  wakeUp: (that) => {
+    that.sound = 'woof'
   },
   beLoud () {
     console.log(this.sound)
@@ -22,7 +22,7 @@ dog.goToSleep()
 dog.beLoud()
 dog.beLoud()
 dog.beLoud()
-dog.wakeUp()
+dog.wakeUp(dog)
 dog.beLoud()
 dog.beLoud()
 dog.beLoud()

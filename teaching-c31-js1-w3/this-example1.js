@@ -1,12 +1,18 @@
 // const test = {
-//   prop: 42,
+//   aNumber: 42,
 //   func: function() {
-//     return this.prop;
+//     return this.aNumber;
 //   },
-
 // };
 
 // console.log(test.func());
+
+
+
+
+
+
+
 
 
 
