@@ -1,0 +1,22 @@
+{
+  "name": "c31",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasperkennis/HYF-tiny-lesson-demos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasperkennis/HYF-tiny-lesson-demos/issues"
+  },
+  "homepage": "https://github.com/jasperkennis/HYF-tiny-lesson-demos#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
